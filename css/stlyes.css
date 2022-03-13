@@ -53,7 +53,7 @@
     background-image: url(../images/backgrounds/c_image.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    height: 663px;
+    height: 503px;
     width: 1900px;
     max-width: 100%;
     max-height: 100%;
@@ -68,16 +68,16 @@
     font-family: sans-serif;
 }
 .socialicons{
-    display:flex;
+     display:flex;
     flex-direction: row;
-    position: relative;
+    position: relative;  
     cursor: pointer;
     padding: 10px 40px;
     font-size: 30px;
     width: 50px;
     height: 50px;
     text-align: center;
-    text-decoration: none;
+
     
 }
 .fa-facebook {
@@ -110,5 +110,5 @@
   }
   .fa-google-plus{
       background: red;
-      color:white
+      color:white;
   }
