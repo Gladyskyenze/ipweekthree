@@ -1,3 +1,68 @@
-.top{
-    background-image: url(../images/backgrounds/legimg.jpg);
+.container{
+     background-image: url(../images/backgrounds/legimg.jpg) ;
+     background-repeat: no-repeat;
+    height: 900px;
+    width: 1900px;
+    max-width: 100%;
+    max-height: 100%;
+
+    font-size: 28px;
+    text-align: center;
+    font-family: sans-serif;
+   
 }
+
+.about{
+    font-size: 18px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.service{
+    background-image: url(../images/backgrounds/s_image.jpg);
+    background-repeat: no-repeat;
+    height: 488px;
+    width: 1900px;
+    max-width: 100%;
+    max-height: 100%;
+    
+    font-size: 18px;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+
+    position: relative;
+    
+}
+.whatwedo{
+    font-size: 18px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.portfolio{
+    font-size: 18px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.contact{
+    font-size: 18px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.foot{
+    font-size: 18px;
+    text-align: center;
+    font-family: sans-serif;
+}
+.socialicons{
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
