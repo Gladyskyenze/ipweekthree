@@ -39,9 +39,90 @@
     
 }
 .whatwedo{
+    position: relative;
+    width: 400px;
     font-size: 18px;
     text-align: center;
     font-family: sans-serif;
+}
+/* .design{
+    display: block;
+    width: 100%;
+} */
+.designoverlay{
+    position: relative;
+    top: 0;
+    left: 0;
+    /* width: 100%;
+    height: 100%; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25en;
+}
+.designoverlay:hover{
+    opacity: 1;
+}
+.designtitle{
+    font-size: 2en;
+    font-weight: bolder;
+}
+.designdescrip{
+    font-size: 1.25en;
+    margin-top: 0.25en;
+}
+.designpri{
+    background-color: white;
+}
+.devoverlay{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25en;
+}
+.devoverlay:hover{
+    opacity: 1;
+}
+.devtitle{
+    font-size: 2en;
+    font-weight: bolder;
+}
+.devdescrip{
+    font-size: 1.25en;
+    margin-top: 0.25en;
+}
+.prooverlay{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25en;
+}
+.prooverlay:hover{
+    opacity: 1;
+}
+.protitle{
+    font-size: 2en;
+    font-weight: bolder;
+}
+.prodescrip{
+    font-size: 1.25en;
+    margin-top: 0.25en;
 }
 .portfolio{
     font-size: 18px;
@@ -77,8 +158,7 @@
     width: 50px;
     height: 50px;
     text-align: center;
-
-    
+    justify-content: center;    
 }
 .fa-facebook {
     background: #3B5998;
