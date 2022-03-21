@@ -156,42 +156,8 @@
   flex-direction: row;
   position: relative;
   cursor: pointer;
-  padding: 10px 40px;
-  font-size: 30px;
-  width: 50px;
-  height: 50px;
+ 
   text-align: center;
   justify-content: center;
 }
-.fa-facebook {
-  background: #3b5998;
-  color: white;
-}
-.fa-twitter {
-  background: #55acee;
-  color: white;
-}
-.fa-pinterest {
-  background: #cb2027;
-  color: white;
-}
-.fa-skype {
-  background: #00aff0;
-  color: white;
-}
-.fa-dribbble {
-  background: #ea4c89;
-  color: white;
-}
-.fa-stumbleupon {
-  background: #eb4924;
-  color: white;
-}
-.fa-flickr {
-  background: grey;
-  color: white;
-}
-.fa-google-plus {
-  background: red;
-  color: white;
-}
+
