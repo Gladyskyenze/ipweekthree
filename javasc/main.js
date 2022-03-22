@@ -2,6 +2,6 @@ $('#user_form').submit(function(){
 let namee  = $('#name').val();
 let emaill=$('#email').val();
 let msg= $('#messagee').val();
-alert('your message has been received');
+alert(namee + 'We have received your message. Thank you for the feedback.');
 
 });
