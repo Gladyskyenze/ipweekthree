@@ -18,6 +18,7 @@
   text-align: center;
   font-family: sans-serif;
 }
+
 .service {
   background-image: url(../images/backgrounds/s_image.jpg);
   background-repeat: no-repeat;
@@ -34,6 +35,7 @@
 
   position: relative;
 }
+
 .whatwedo {
   position: relative;
   width: 200px;
@@ -56,20 +58,25 @@
   opacity: 0;
   transition: opacity 0.25en;
 }
+
 .designoverlay:hover {
   opacity: 1;
 }
+
 .designtitle {
   font-size: 2en;
   font-weight: bolder;
 }
+
 .designdescrip {
   font-size: 1.25en;
   margin-top: 0.25en;
 }
+
 .designpri {
   background-color: white;
 }
+
 .devoverlay {
   position: relative;
   top: 0;
@@ -83,17 +90,21 @@
   opacity: 0;
   transition: opacity 0.25en;
 }
+
 .devoverlay:hover {
   opacity: 1;
 }
+
 .devtitle {
   font-size: 2en;
   font-weight: bolder;
 }
+
 .devdescrip {
   font-size: 1.25en;
   margin-top: 0.25en;
 }
+
 .prooverlay {
   position: relative;
   top: 0;
@@ -107,23 +118,28 @@
   opacity: 0;
   transition: opacity 0.25en;
 }
+
 .prooverlay:hover {
   opacity: 1;
 }
+
 .protitle {
   font-size: 2en;
   font-weight: bolder;
 }
+
 .prodescrip {
   font-size: 1.25en;
   margin-top: 0.25en;
 }
+
 .portfolio {
   font-size: 18px;
   text-align: center;
   font-family: sans-serif;
   float: inline-start;
 }
+
 .contact {
   background-image: url(../images/backgrounds/c_image.jpg);
   background-repeat: no-repeat;
@@ -136,6 +152,7 @@
   text-align: center;
   font-family: sans-serif;
 }
+
 #messagee {
   background-color: transparent;
 }
@@ -143,29 +160,33 @@
 #name {
   background-color: transparent;
 }
+
 #email {
   background-color: transparent;
 }
-#btn1{
+
+#btn1 {
   background-color: transparent;
 }
+
 .foot {
   font-size: 8px;
   text-align: center;
   font-family: sans-serif;
 }
+
 .socialicons {
   display: flex;
   flex-direction: row;
   position: relative;
   cursor: pointer;
- 
+
   text-align: center;
   justify-content: center;
 }
- .container {
-  
-  text-align: center;
-  justify-content: center; 
-} 
 
+.container {
+
+  text-align: center;
+  justify-content: center;
+}
